@@ -126,6 +126,29 @@
   transform: translateZ(0);
 }
 
+/* Hand Animation CSS */
+.hand{
+    animation: hand-waving 7s infinite;
+    transform-origin: 75% 75%;
+    width: 50px;
+    height: 50px;
+    margin: 20px 0 0 15px;
+}
+
+@keyframes hand-waving {
+  0% {
+    transform: rotate(0deg);
+}
+2% {
+    transform: rotate(25deg);
+}
+6% {
+    transform: rotate(-25deg);
+}
+8% {
+    transform: rotate(0deg);
+}
+}
 @keyframes mulShdSpin {
   0%,
   100% {
@@ -200,5 +223,12 @@
       0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
       -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.5),
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
+  }
+}
+@media (max-width: 600px) {
+  .hand{
+    width: 40px;
+    height: 40px;
+    margin: 10px 0 0 10px;
   }
 }
