@@ -13,6 +13,17 @@
   color-scheme: dark;
 }
 
+/* Custom Cursor */
+.cursor{
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  position: fixed;
+  top:0;
+  left:0;
+  background-color: #38ef7d;
+}
+
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
