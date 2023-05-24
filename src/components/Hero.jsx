@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import '../index.css'
+ 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -36,7 +36,7 @@ const Hero = () => {
                 y: [0, 24, 0],
               }}
               transition={{
-                duration: 1.5,
+                duration: 4.5,
                 repeat: Infinity,
                 repeatType: "loop",
               }}
