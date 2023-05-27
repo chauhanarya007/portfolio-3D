@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 //import { useEffect, useState } from "react";
 //import { motion } from "framer-motion";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
+import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
 
 const App = () => {
 //   const [mousePosition, setMousePosition] = useState({
@@ -28,21 +28,22 @@ const App = () => {
 //   }
   return (
     <BrowserRouter>
-      <div className='relative z-0 bg-primary'>
+      <div className='relative z-0 bg-gray-100'>
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* <Experience /> */}
         <Tech />
         <Works />
-        <Feedbacks />
+        {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />
           <StarsCanvas />
         </div>
       </div>
+      <Footer />
       {/* <motion.div 
       className="cursor"
       variants={variants}

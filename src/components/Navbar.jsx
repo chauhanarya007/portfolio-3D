@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? "bg-gradient-to-b from-primary" : "bg-transparent"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -42,11 +42,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            Arya &nbsp; 
-            {/* <span className='sm:block hidden'> | Computer Programmer</span> */}
-          </p>
+          <img src={logo} alt='logo' className='w-20 h-auto object-contain' />
+          {/* <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+             
+            {/* <span className='sm:block hidden'> | Computer Programmer</span>
+          </p> */}
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
@@ -54,7 +54,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.title ? "text-white" : "text-gray-300"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -63,20 +63,20 @@ const Navbar = () => {
           ))}
         </ul>
         {/* For mobile layout */}
-        <div className='sm:hidden flex flex-1 justify-end items-center'>
+        <div className='sm:hidden flex flex-1 justify-end items-center '>
           <img
             src={toggle ? close : menu}
             alt='menu'
-            className='w-[28px] h-[28px] object-contain'
+            className='w-[28px] h-[28px] object-contain cursor-pointer transition duration-350 ease-out hover:ease-in'
             onClick={() => setToggle(!toggle)}
           />
 
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-gradient-to-r from-primary to-gray-500 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl transition duration-1550 fade-in`}
           >
-            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4'>
+            <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4 transition duration-150 ease-out hover:ease-in'>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}

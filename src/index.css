@@ -10,7 +10,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
+  transition: all 0.5s ease;
 }
 
 /* Custom Cursor */
@@ -31,11 +32,11 @@
 }
 
 .black-gradient {
-  background: #000000; /* fallback for old browsers */
+  background: #e0e0e0; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #434343,
-    #000000
+    #f0f0f0
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
