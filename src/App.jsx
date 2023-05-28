@@ -1,7 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
 //import { useEffect, useState } from "react";
 //import { motion } from "framer-motion";
-import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
+import { About, Contact, Hero, Navbar, Tech, Works, StarsCanvas, Footer } from "./components";
 
 const App = () => {
 //   const [mousePosition, setMousePosition] = useState({
@@ -42,8 +42,9 @@ const App = () => {
           <Contact />
           <StarsCanvas />
         </div>
+        <Footer /> 
       </div>
-      <Footer />
+      
       {/* <motion.div 
       className="cursor"
       variants={variants}

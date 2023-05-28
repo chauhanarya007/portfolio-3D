@@ -13,6 +13,16 @@
   color-scheme: light;
   transition: all 0.5s ease;
 }
+/*selection color */
+::-moz-selection { /* Code for Firefox */
+  /* color: gray; */
+  background: rgba(174, 57, 228, 0.228);
+}
+
+::selection {
+  /* color: gray; */
+  background: rgba(174, 57, 228, 0.228);
+}
 
 /* Custom Cursor */
 .cursor{
