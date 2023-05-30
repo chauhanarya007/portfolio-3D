@@ -32,11 +32,13 @@ const ProjectCard = ({
           onClick={() => window.open(website_link, "_blank")}
           className="relative w-full h-[230px] cursor-pointer "
         >
+          
           <img
             src={image}
             alt="project_image"
-            className="w-full h-full object-cover rounded-2xl"
+            className="w-full h-full object-cover rounded-2xl "
           />
+          <div className="absolute inset-0 bg-black bg-opacity-5"></div>
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <span className="absolute text-6xl inset-0 flex items-center justify-center text-violet-600 font-bold opacity-0 hover:opacity-100 ">
@@ -80,7 +82,7 @@ const Works = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects.</h2>
+        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
       </motion.div>
 
       <div className="w-full flex">

@@ -5,10 +5,7 @@ import {
     web,
     javascript,
     typescript,
-    html,
-    css,
     reactjs,
-    redux,
     tailwind,
     nodejs,
     mongodb,
@@ -219,16 +216,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "AI Prompt T-shirts",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "T-Shirt customization website built using Three.js, OpenAI, and React. The website allows users to create custom images on t-shirts using AI and customize them directly on the website.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "three.js",
           color: "green-text-gradient",
         },
         {
@@ -237,8 +234,8 @@ import {
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
-      website_link: "https://github.com/chauhanarya007",
+      source_code_link: "https://github.com/chauhanarya007/3d-T-Shirts_using-Dall.E-AI",
+      website_link: "https://3dtshirts-using-midjourney-ai-kk7a.vercel.app/",
     },
     {
       name: "Job IT",
