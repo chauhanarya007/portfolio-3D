@@ -12,6 +12,8 @@ const styles = {
   
     sectionHeadText:
       "text-gray-600 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
+    contactHeadText:
+      "text-gray-300 font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
       "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
   };

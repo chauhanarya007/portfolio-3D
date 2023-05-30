@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import "../index.css";
 
 import { styles } from "../styles";
 //import { EarthCanvas } from "./canvas";
@@ -69,14 +70,15 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden `}
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-black-100 p-8 rounded-2xl'
+        className='flex-[0.75] bg-gray-800 p-8 rounded-2xl'
       >
+      
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        <h3 className={styles.contactHeadText}>Contact Me</h3>
 
         <form
           ref={formRef}
@@ -90,8 +92,8 @@ const Contact = () => {
               name='name'
               value={form.name}
               onChange={handleChange}
-              placeholder="What's your good name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              placeholder="Name"
+              className='bg-gray-700 py-4 px-6 placeholder:text-gray-600 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -101,8 +103,8 @@ const Contact = () => {
               name='email'
               value={form.email}
               onChange={handleChange}
-              placeholder="What's your web address?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              placeholder="Email"
+              className='bg-gray-700 py-4 px-6 placeholder:text-gray-600 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -112,14 +114,16 @@ const Contact = () => {
               name='message'
               value={form.message}
               onChange={handleChange}
-              placeholder='What you want to say?'
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'
+              placeholder='Say Anything!'
+              className='bg-gray-700 py-4 px-6 placeholder:text-gray-600 text-white rounded-lg outline-none border-none font-medium'
             />
           </label>
 
           <button
             type='submit'
-            className='bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary'
+            className='bg-gray-500 py-3 transition duration-350 ease-out hover:ease-in px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary
+            hover:bg-gradient-to-r from-violet-800 to-violet-500 
+            '
           >
             {loading ? "Sending..." : "Send"}
           </button>
@@ -131,8 +135,8 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         {/* <EarthCanvas /> */}
-        <div className="absolute z-10 flex items-end top-[120px] h-180 w-auto right-0 m-0 md:bottom-px">
-        <Spline className="m-0" scene="https://prod.spline.design/aJFrngneqsI3yqAe/scene.splinecode" />
+        <div className="absolute z-10 flex items-end -top-[50px] md:top-[20px] md:-left-[70px] w-[550px] h-[540px] md:w-[850px] md:h-[840px]  m-0">
+        <Spline scene="https://prod.spline.design/aJFrngneqsI3yqAe/scene.splinecode" />
         </div>
       </motion.div>
     </div>

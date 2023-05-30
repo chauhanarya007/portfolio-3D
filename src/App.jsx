@@ -36,7 +36,10 @@ const App = () => {
         <About />
         {/* <Experience /> */}
         <Tech />
+        <div className=" relative z-0 bg-gradient-to-b from-gray-200 to-transparent">
         <Works />
+        </div>
+        
         {/* <Feedbacks /> */}
         <div className='relative z-0'>
           <Contact />

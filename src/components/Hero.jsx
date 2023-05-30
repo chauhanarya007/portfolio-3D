@@ -43,9 +43,10 @@ const Hero = () => {
             backSpeed={50}
             loop
           /> &nbsp; <br />
-          Seeking Opportunities in Frontend <br className='sm:block hidden' />
-          and Backend Development
+          
           </p>
+          <h4 className="text-gray-400">Seeking Opportunities in Frontend <br className='sm:block hidden' />
+          and Backend Development</h4>
         </div>
       </div>
 

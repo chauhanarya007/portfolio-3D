@@ -45,13 +45,15 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        <b>Database:</b> I have a strong understanding of database management systems such as MySQL, MongoDB, and MS SQL Server.<br/>
+
+        <b>Development Tools:</b> I am well-versed in various development tools and technologies, including Git, GitHub, SDLC (Software Development Life Cycle), Visual Studio Code, Visual Studio 2019, IntelliJ, XCode, Atom, NetBeans, Eclipse, and phpMyAdmin.<br/>
+
+        <b>Graphic Designing:</b> I have experience in graphic designing using tools such as Figma, Webflow, and Adobe Suite, including Photoshop and Premier Pro. Additionally, I am skilled in video editing.<br/>
+
+        <b>Additional Skills:</b> In addition to my technical expertise, I have knowledge and experience in managing social media platforms like Facebook, Snapchat, TikTok, and Instagram. I can also handle growth and ad management using Shopify Backend.<br/>
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
