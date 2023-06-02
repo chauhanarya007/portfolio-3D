@@ -135,8 +135,8 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         {/* <EarthCanvas /> */}
-        <div className="absolute z-10 flex items-end -top-[50px] md:top-[20px] md:-left-[70px] w-[550px] h-[540px] md:w-[850px] md:h-[840px]  m-0">
-        <Spline scene="https://prod.spline.design/aJFrngneqsI3yqAe/scene.splinecode" />
+        <div className="z-10 flex">
+        <Spline className="absolute" scene="https://prod.spline.design/aJFrngneqsI3yqAe/scene.splinecode" />
         </div>
       </motion.div>
     </div>
