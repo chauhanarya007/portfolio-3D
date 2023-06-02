@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import "../index.css";
@@ -135,7 +135,7 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         {/* <EarthCanvas /> */}
-        <div className="z-10 flex">
+        <div className="flex h-[200px] w-[200px]">
         <Spline className="absolute" scene="https://prod.spline.design/aJFrngneqsI3yqAe/scene.splinecode" />
         </div>
       </motion.div>

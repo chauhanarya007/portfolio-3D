@@ -21,7 +21,7 @@ const Hero = () => {
 
         <div className="min-w-[10rem] md:w-auto p-0">
           <h2 className={`${styles.heroPreText} font-bold text-white-100`}>
-          Hi, I'm
+          Hi, I&apos;m
           </h2>
           <h1 className={`${styles.heroHeadText} text-white flex`}>
              &nbsp; <span className='text-[#915EFF]'>Arya </span>
@@ -31,7 +31,7 @@ const Hero = () => {
           {/* I'm a Versatile Programmer <br className='sm:block hidden' />
           Seeking Opportunities in Frontend<br className='sm:block hidden' />
           and Backend Development */}
-          I'm&nbsp;
+          I&apos;m&nbsp;
           <Typed strings={[
             'Ambitious.',
             'Adaptable.',
