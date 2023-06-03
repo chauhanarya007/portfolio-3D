@@ -221,15 +221,15 @@ import {
         "T-Shirt customization website built using Three.js, OpenAI, and React. The website allows users to create custom images on t-shirts using AI and customize them directly on the website.",
       tags: [
         {
-          name: "react",
+          name: "openAI",
           color: "blue-text-gradient",
         },
         {
           name: "three.js",
-          color: "green-text-gradient",
+          color: "orange-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwindcss",
           color: "pink-text-gradient",
         },
       ],
@@ -238,12 +238,12 @@ import {
       website_link: "https://3dtshirts-using-midjourney-ai-kk7a.vercel.app/",
     },
     {
-      name: "Job IT",
+      name: "Songly",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application built using Vite, Rapid APIs and Redux that enables users to listen to music and get top charts and top artists in real time. Users can also see the local favourites near them.",
       tags: [
         {
-          name: "react",
+          name: "vite",
           color: "blue-text-gradient",
         },
         {
@@ -251,33 +251,43 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "redux",
           color: "pink-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "orange-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chauhanarya007/Songly_API",
+      website_link: "https://songly-api.vercel.app/",
     },
     {
-      name: "Trip Guide",
+      name: "Real Estate",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This website is made using ASP.NET, it leverages the power of MongoDB, Node.js, and Google authentication to provide users with a seamless online platform for buying and selling properties. ",
       tags: [
         {
-          name: "nextjs",
+          name: "ASP.net",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Node.js",
           color: "pink-text-gradient",
+        },
+        {
+          name: "GoogleOAuth",
+          color: "orange-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/chauhanarya007/estateTracker",
+      website_link: "https://estatetracker.onrender.com/",
     },
   ];
   

@@ -25,7 +25,8 @@ import swift from "./tech/swift.png"
 import sql from "./tech/sql.png"
 import netcore from "./tech/netcore.png"
 import angular from "./tech/angular.png"
-
+import githubic from "./githubic.png"
+import linkedinic from "./linkedin.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -70,4 +71,6 @@ export {
   swift,
   netcore,
   sql,
+  githubic,
+  linkedinic,
 };

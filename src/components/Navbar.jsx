@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, githubic, linkedinic } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -34,6 +34,7 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -50,11 +51,16 @@ const Navbar = () => {
         </Link>
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
+          <li className="text-white
+              hover:text-violet text-[18px] font-medium cursor-pointer flex gap-5 mt-0.5" >
+              <a href="https://github.com/chauhanarya007"> <img src={githubic} className="h-[1.5rem] w-[1.5rem] " alt="github"></img></a>
+              <a href="https://www.linkedin.com/in/arya-chauhan-1b6397209/"> <img src={linkedinic} className="h-[1.5rem] w-[1.5rem]" alt="linkedin"></img></a>
+              </li>
           {navLinks.map((nav) => (
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-gray-300"
+                active === nav.title ? "text-white" : "text-gray-400"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -77,6 +83,11 @@ const Navbar = () => {
             } p-6 bg-gradient-to-r from-primary to-gray-500 absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl transition duration-1550 fade-in`}
           >
             <ul className='list-none flex justify-end items-start flex-1 flex-col gap-4 transition duration-150 ease-out hover:ease-in'>
+            <li className="text-white
+               font-poppins font-medium cursor-pointer text-[16px] flex gap-2" >
+              <a href="https://github.com/chauhanarya007"> <img src={githubic} className="h-[1.5rem] w-[1.5rem] " alt="github"></img></a>
+              <a href="https://www.linkedin.com/in/arya-chauhan-1b6397209/"> <img src={linkedinic} className="h-[1.5rem] w-[1.5rem]" alt="linkedin"></img></a>
+              </li>
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
