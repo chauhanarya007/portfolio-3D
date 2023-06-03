@@ -25,7 +25,7 @@ const Hero = () => {
           </h2>
           <h1 className={`${styles.heroHeadText} text-white flex`}>
              &nbsp; <span className='text-[#915EFF]'>Arya </span>
-            <img className="js-lazy lazy hand is-loaded" src="/src/assets/hand-emoji-100x100.webp" alt="Hi emoji"></img>
+            <img className="js-lazy lazy hand is-loaded" src="/src/assets/hand-emoji-100x100.png" alt="Hi emoji"></img>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           {/* I'm a Versatile Programmer <br className='sm:block hidden' />
