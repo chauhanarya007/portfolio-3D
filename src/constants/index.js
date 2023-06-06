@@ -20,6 +20,8 @@ import {
     swift,
     netcore,
     sql,
+    secondone,
+    laravel,
   } from "../assets";
   
   export const navLinks = [
@@ -65,10 +67,7 @@ import {
     //   name: "CSS 3",
     //   icon: css,
     // },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    
     {
       name: "TypeScript",
       icon: typescript,
@@ -94,12 +93,16 @@ import {
       icon: angular,
     },
     {
-      name: "Java",
-      icon: java,
+      name: "Laravel",
+      icon: laravel,
     },
     {
       name: "Swift",
       icon: swift,
+    },
+    {
+      name: "Java",
+      icon: java,
     },
     {
       name: "Net core",
@@ -204,6 +207,72 @@ import {
       source_code_link: "https://github.com/chauhanarya007/estateTracker",
       website_link: "https://estatetracker.onrender.com/",
     },
+    {
+      name: "DALL-E Clone",
+      description:
+        "Web Application made using Vite, OpenAI, MongoDB, and Cloudinary, this website generates captivating images through the magic of AI. Also share your masterpieces within the community.",
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Cloudinary",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: secondone,
+      source_code_link: "https://github.com/chauhanarya007/midjourney_clone/tree/master/server",
+      website_link: "https://midjourney-clone-beta.vercel.app/",
+    },
+    {
+      name: "Midjourney Clone",
+      description:
+        "Web Application made using Vite, OpenAI, MongoDB, and Cloudinary, this website generates captivating images through the magic of AI. Also share your masterpieces within the community.",
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Cloudinary",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: secondone,
+      source_code_link: "https://github.com/chauhanarya007/midjourney_clone/tree/master/server",
+      website_link: "https://midjourney-clone-beta.vercel.app/",
+    },
+    {
+      name: "Midjourney Clone",
+      description:
+        "Web Application made using Vite, OpenAI, MongoDB, and Cloudinary, this website generates captivating images through the magic of AI. Also share your masterpieces within the community.",
+      tags: [
+        {
+          name: "OpenAI",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Cloudinary",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: secondone,
+      source_code_link: "https://github.com/chauhanarya007/midjourney_clone/tree/master/server",
+      website_link: "https://midjourney-clone-beta.vercel.app/",
+    }
   ];
   
   export { services, technologies, projects };
