@@ -234,7 +234,7 @@ import {
     {
       name: "User Data Laravel App",
       description:
-        "Web Application made using Vite, OpenAI, MongoDB, and Cloudinary, this website generates captivating images through the magic of AI. Also share your masterpieces within the community.",
+        "Web application built with PHP Laravel, React, and Context API. Experience user management with seamless sign-in and sign-up functionalities, coupled with personalized data that can be easily modified once logged in.",
       tags: [
         {
           name: "PHP",
