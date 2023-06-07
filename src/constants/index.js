@@ -11,6 +11,8 @@ import {
     mongodb,
     git,
     figma,
+    forthone,
+    thirdone,
     carrent,
     jobit,
     tripguide,
@@ -230,48 +232,52 @@ import {
       website_link: "https://midjourney-clone-beta.vercel.app/",
     },
     {
-      name: "Midjourney Clone",
+      name: "User Data Laravel App",
       description:
         "Web Application made using Vite, OpenAI, MongoDB, and Cloudinary, this website generates captivating images through the magic of AI. Also share your masterpieces within the community.",
       tags: [
         {
-          name: "OpenAI",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "MongoDB",
+          name: "PHP",
           color: "green-text-gradient",
         },
         {
-          name: "Cloudinary",
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Laravel",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "contextAPI",
           color: "pink-text-gradient",
         },
       ],
-      image: secondone,
-      source_code_link: "https://github.com/chauhanarya007/midjourney_clone/tree/master/server",
-      website_link: "https://midjourney-clone-beta.vercel.app/",
+      image: thirdone,
+      source_code_link: "https://github.com/chauhanarya007/laravel-react-database-app",
+      website_link: "https://grocecheetah.com/",
     },
     {
-      name: "Midjourney Clone",
+      name: "Nike website overhaul",
       description:
-        "Web Application made using Vite, OpenAI, MongoDB, and Cloudinary, this website generates captivating images through the magic of AI. Also share your masterpieces within the community.",
+        "Website made using HTML, CSS and Js this website is a redesign of the original nike website with added features like custom cursor and animations.",
       tags: [
         {
-          name: "OpenAI",
+          name: "HTML",
           color: "blue-text-gradient",
         },
         {
-          name: "MongoDB",
+          name: "CSS",
           color: "green-text-gradient",
         },
         {
-          name: "Cloudinary",
+          name: "JS",
           color: "pink-text-gradient",
         },
       ],
-      image: secondone,
-      source_code_link: "https://github.com/chauhanarya007/midjourney_clone/tree/master/server",
-      website_link: "https://midjourney-clone-beta.vercel.app/",
+      image: forthone,
+      source_code_link: "https://github.com/chauhanarya007/Nike-Website",
+      website_link: "https://nike-website-beryl.vercel.app/",
     }
   ];
   

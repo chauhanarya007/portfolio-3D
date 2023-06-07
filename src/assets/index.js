@@ -29,10 +29,11 @@ import angular from "./tech/angular.png"
 import githubic from "./githubic.png"
 import linkedinic from "./linkedin.png"
 import laravel from "./tech/laravel.png"
-
+import thirdone from "./thirdone.png"
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import forthone from "./forthone.png"
 
 export {
   logo,
@@ -67,5 +68,7 @@ export {
   githubic,
   linkedinic,
   secondone,
-  laravel
+  laravel,
+  thirdone,
+  forthone,
 };
