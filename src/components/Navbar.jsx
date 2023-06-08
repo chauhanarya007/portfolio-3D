@@ -53,8 +53,8 @@ const Navbar = () => {
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           <li className="text-white
               hover:text-violet text-[18px] font-medium cursor-pointer flex gap-5 mt-0.5" >
-              <a href="https://github.com/chauhanarya007"> <img src={githubic} className="h-[1.5rem] w-[1.5rem] " alt="github"></img></a>
-              <a href="https://www.linkedin.com/in/arya-chauhan-1b6397209/"> <img src={linkedinic} className="h-[1.5rem] w-[1.5rem]" alt="linkedin"></img></a>
+              <a href="https://github.com/chauhanarya007" target="_blank" rel="noreferrer"> <img src={githubic} className="h-[1.5rem] w-[1.5rem] " alt="github"></img></a>
+              <a href="https://www.linkedin.com/in/arya-chauhan-1b6397209/" target="_blank" rel="noreferrer"> <img src={linkedinic} className="h-[1.5rem] w-[1.5rem]" alt="linkedin"></img></a>
               </li>
           {navLinks.map((nav) => (
             <li
