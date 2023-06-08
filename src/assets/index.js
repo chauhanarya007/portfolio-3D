@@ -6,7 +6,7 @@ import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import secondone from "./secondone.png"
+import secondone from "./secondone-min.png"
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -29,11 +29,11 @@ import angular from "./tech/angular.png"
 import githubic from "./githubic.png"
 import linkedinic from "./linkedin.png"
 import laravel from "./tech/laravel.png"
-import thirdone from "./thirdone.png"
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
-import forthone from "./forthone.png"
+import thirdone from "./thirdone-min.png"
+import carrent from "./carrent-min.png";
+import jobit from "./jobit-min.png";
+import tripguide from "./tripguide-min.png";
+import forthone from "./forthone-min.png"
 import handEmoji from "./handEmoji.png"
 
 export {
