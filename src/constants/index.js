@@ -24,6 +24,7 @@ import {
     sql,
     secondone,
     laravel,
+    next,
   } from "../assets";
   
   export const navLinks = [
@@ -123,8 +124,8 @@ import {
       icon: threejs,
     },
     {
-      name: "git",
-      icon: git,
+      name: "next",
+      icon: next,
     },
     // {
     //   name: "figma",

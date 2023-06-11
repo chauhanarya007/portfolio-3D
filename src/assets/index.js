@@ -7,7 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import secondone from "./secondone-min.png"
-
+import next from "./tech/next.png"
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -73,4 +73,5 @@ export {
   thirdone,
   forthone,
   handEmoji,
+  next,
 };
