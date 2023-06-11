@@ -155,7 +155,7 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/chauhanarya007/3d-T-Shirts_using-Dall.E-AI",
-      website_link: "https://3dtshirts-using-midjourney-ai-kk7a.vercel.app/",
+      website_link: "https://3d-t-shirts-using-dall-e-ai.vercel.app/",
     },
     {
       name: "Songly",
