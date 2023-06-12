@@ -185,30 +185,30 @@ import {
       website_link: "https://songly-api.vercel.app/",
     },
     {
-      name: "Real Estate",
+      name: "Car Rental Website",
       description:
-        "This website is made using ASP.NET, it leverages the power of MongoDB, Node.js, and Google authentication to provide users with a seamless online platform for buying and selling properties. ",
+        "CarHub utilizes Rapid API to fetch real-time car data, Next.js as its base layout framework, and TypeScript. It helps users to see different car models and price per day for booking rentals",
       tags: [
         {
-          name: "ASP.net",
+          name: "TypeScript",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "MongoDB",
+          name: "RapidAPIs",
           color: "green-text-gradient",
         },
         {
-          name: "Node.js",
+          name: "React",
           color: "pink-text-gradient",
         },
-        {
-          name: "GoogleOAuth",
-          color: "orange-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/chauhanarya007/estateTracker",
-      website_link: "https://estatetracker.onrender.com/",
+      image: forthone,
+      source_code_link: "https://github.com/chauhanarya007/car-nextjs",
+      website_link: "https://car-nextjs-cw5h.vercel.app/",
     },
     {
       name: "DALL-E Clone",
@@ -259,27 +259,31 @@ import {
       website_link: "https://grocecheetah.com/",
     },
     {
-      name: "Nike website overhaul",
+      name: "Real Estate",
       description:
-        "Website made using HTML, CSS and Js this website is a redesign of the original nike website with added features like custom cursor and animations.",
+        "This website is made using ASP.NET, it leverages the power of MongoDB, Node.js, and Google authentication to provide users with a seamless online platform for buying and selling properties. ",
       tags: [
         {
-          name: "HTML",
+          name: "ASP.net",
           color: "blue-text-gradient",
         },
         {
-          name: "CSS",
+          name: "MongoDB",
           color: "green-text-gradient",
         },
         {
-          name: "JS",
+          name: "Node.js",
           color: "pink-text-gradient",
         },
+        {
+          name: "GoogleOAuth",
+          color: "orange-text-gradient",
+        },
       ],
-      image: forthone,
-      source_code_link: "https://github.com/chauhanarya007/Nike-Website",
-      website_link: "https://nike-website-beryl.vercel.app/",
-    }
+      image: tripguide,
+      source_code_link: "https://github.com/chauhanarya007/estateTracker",
+      website_link: "https://estatetracker.onrender.com/",
+    },
   ];
   
   export { services, technologies, projects };
