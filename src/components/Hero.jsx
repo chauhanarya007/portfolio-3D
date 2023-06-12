@@ -79,7 +79,7 @@ const Hero = () => {
         {/* Scroll Button */}
         <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <ScrollLink to="about" smooth={true} duration={500}>
-          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-gray-300 flex justify-center items-start p-2">
+          <div className="w-[35px] h-[64px] rounded-3xl border-4 border-gray-300 flex justify-center items-start p-2 cursor-pointer">
             <motion.div
               animate={scrollAnimation}
               className="w-3 h-3 rounded-full bg-gray-300 mb-1"
