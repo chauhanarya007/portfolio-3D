@@ -52,7 +52,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Media Buyer",
       icon: backend,
     },
     {
