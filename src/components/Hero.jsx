@@ -64,7 +64,7 @@ const Hero = () => {
           /> &nbsp; <br />
           
           </p>
-          <h4 className="text-gray-400">Seeking Opportunities in Frontend <br className='sm:block hidden' />
+          <h4 className="text-gray-400">Seeking Opportunities in Frontend Dev. <br className='sm:block hidden' />
           and working with ECOM Brands</h4>
         </div>
         
