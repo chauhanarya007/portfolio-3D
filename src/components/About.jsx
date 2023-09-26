@@ -63,8 +63,8 @@ const About = () => {
         NetBeans, Eclipse, and phpMyAdmin.</span>
         <br />
         <b>Graphic Designing:</b> I have experience in graphic designing using
-        tools such as<span className="font-semibold"> Figma, Webflow,</span> and <span className="font-semibold">Adobe Suite,</span> including <span className="font-semibold">Photoshop and
-        Premier Pro.</span> Additionally, I am skilled in video editing.
+        tools such as<span className="font-semibold"> Figma, Webflow,</span> and <span className="font-semibold">Adobe Suite,</span> including <span className="font-semibold">Photoshop, After Effects and
+        Premier Pro.</span> Additionally, I am skilled in video editing and ads creation.
         <br />
         <b>Social Media:</b> I possess comprehensive knowledge and hands-on expertise in effectively managing diverse social media platforms, including Facebook, Snapchat, TikTok, and Instagram. Furthermore, I excel in growth strategies and adeptly manage advertising campaigns utilizing the Shopify Backend, as demonstrated by my accomplishments in generating substantial online sales and collaborating with both small and large brands to achieve impressive sales figures
         <br />
