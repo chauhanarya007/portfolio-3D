@@ -52,12 +52,11 @@ const Hero = () => {
           and Backend Development */}
           I&apos;m&nbsp;
           <Typed strings={[
-            'Ambitious.',
-            'Adaptable.',
-            'Collaborative.',           
-            'a Fast learner.',          
-            'a Problem solver.',         
-            'Resilient.',         
+            'a FrontEnd Dev',
+            'a Social Media Manager.',
+            'an Entrepreneur.',           
+            'a Media Buyer',         
+            'a Video Editor',        
           ]}
             typeSpeed={150}
             backSpeed={50}
@@ -66,7 +65,7 @@ const Hero = () => {
           
           </p>
           <h4 className="text-gray-400">Seeking Opportunities in Frontend <br className='sm:block hidden' />
-          and Backend Development</h4>
+          and working with ECOM Brands</h4>
         </div>
         
       </div>
